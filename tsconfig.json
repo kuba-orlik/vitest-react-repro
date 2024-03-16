@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "node16",
+    "moduleResolution": "node16",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "target": "ES2019",
+    "esModuleInterop": true,
+    "lib": ["es6", "esnext"],
+    "outDir": "dist",
+    "jsx": "react",
+    "reactNamespace": "TempstreamJSX",
+    "checkJs": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "types": ["vitest/globals"]
+  },
+  "include": ["./**/*", "./*"],
+  "ts-node": { "experimentalResolver": true, "esm": true }
+}

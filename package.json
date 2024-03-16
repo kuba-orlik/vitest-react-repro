@@ -1,0 +1,17 @@
+{
+  "name": "vitest-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tempstream": "^0.3.12",
+    "typescript": "^5.4.2",
+    "vitest": "^1.4.0"
+  }
+}
